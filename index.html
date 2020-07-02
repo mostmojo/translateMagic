@@ -1,40 +1,39 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-		<meta charset="utf-8" />
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
-	</head>
-	<style>
-		body {
-			font-family: 'Lato', sans-serif;
-		}
 
-		section {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			padding: 2rem;
-			width: 400px;
-			margin: 0 auto;
-			text-align: center;
-			background: rgba(223, 223, 223, 0.6);
-		}
-	</style>
-	<body>
-		<section>
-			<h1 style="font-size: 24px; font-weight: bold; color: blueviolet;">V1: Ready to translate this?</h1>
-			<h2 style="font-size: 16px; color: palevioletred;">
-				Get found by search engines and visitors in other languages!
-			</h2>
-			<p style="font-size: 12px; color: palevioletred;">
-				Go to the top right corner & change language. Watch the magic happen! 🤓
-			</p>
-			<a
-				href="https://empiremedia.io"
-				target="_blank"
-				style="
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<style>
+	body {
+		font-family: 'Lato', sans-serif;
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 2rem;
+		width: 400px;
+		margin: 4rem auto;
+		text-align: center;
+		background: rgba(223, 223, 223, 0.6);
+	}
+</style>
+
+<body>
+	<section>
+		<h1 style="font-size: 24px; font-weight: bold; color: blueviolet;">V1: Ready to translate this?</h1>
+		<h2 style="font-size: 16px; color: palevioletred;">
+			Get found by search engines and visitors in other languages!
+		</h2>
+		<p style="font-size: 12px; color: palevioletred;">
+			Go to the top right corner & change language. Watch the magic happen! 🤓
+		</p>
+		<a href="https://empiremedia.io" target="_blank" style="
 					text-decoration: none;
 					font-size: 12px;
 					background: peachpuff;
@@ -42,47 +41,13 @@
 					border: 2px solid peru;
 					border-radius: 2px;
 					margin-top: 1rem;
-				"
-			>
-				Powered by Empire Media
-			</a>
-		</section>
+				">
+			Powered by Empire Media
+		</a>
+	</section>
 
-		<script type="text/javascript">
-			var linguJSON = {
-				languages: [
-					{
-						lang_name: 'English',
-						lang_code: 'en',
-						url_pattern: '?',
-					},
-					{
-						lang_name: 'Español',
-						lang_code: 'es',
-						url_pattern: '?',
-					},
-				],
-				translated_segments: [
-					{
-						source: 'V1: Ready to translate this?',
-						target_es: 'V1:¿Está listo para el mundo?',
-					},
-					{
-						source: 'Get found by search engines and visitors in other languages!',
-						target_es: 'Sea encontrado por los motores de búsqueda en otros idiomas',
-					},
-					{
-						source: 'Go to the top right corner & change language. Watch the magic happen! 🤓',
-						target_es:
-							'Ve a la esquina superior derecha y cambia el idioma. ¡Mira cómo sucede la magia! 🤓',
-					},
-					{
-						source: 'Powered by Empire Media',
-						target_es: 'Potenciado por Empire Media',
-					},
-				],
-			};
-		</script>
-		<script src="js/lingumania.min.js"></script>
-	</body>
+
+	<script src="js/lingumania.min.js"></script>
+	<script src="./app.js"></script>
+
 </html>
